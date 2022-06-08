@@ -1,0 +1,99 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"POT-Creation-Date: 2022-06-09 01:04+0200\n"
+"PO-Revision-Date: 2022-06-09 01:06+0200\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 3.1\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-KeywordsList: __;_e;_esc_html;_esc_attr\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: node_modules\n"
+"X-Poedit-SearchPathExcluded-1: scripts\n"
+"X-Poedit-SearchPathExcluded-2: src\n"
+
+#: customizer/archive.php:15
+msgid "Архив"
+msgstr "Archive"
+
+#: customizer/archive.php:16
+msgid "Страницы архива, категорий (шаблон index.php)"
+msgstr "Archive, category pages (index.php template)"
+
+#: customizer/archive.php:33
+msgid "Префикс"
+msgstr "Prefix"
+
+#: customizer/archive.php:34
+msgid "Текст перед заголовком архива"
+msgstr "Text before archive header"
+
+#: customizer/footer.php:15
+msgid "Подвал сайта"
+msgstr "Footer"
+
+#: customizer/footer.php:32
+msgid "Копирайт"
+msgstr "Copyright"
+
+#: customizer/panels.php:19
+msgid "Блоки темы"
+msgstr "Theme Blocks"
+
+#: customizer/panels.php:30
+msgid "Шаблоны страниц"
+msgstr "Page Templates"
+
+#: customizer/scripts.php:15
+msgid "Дополнительные скрипты"
+msgstr "Additional scripts"
+
+#: customizer/scripts.php:30
+msgid "Выводится перед закрывающим тегом HEAD"
+msgstr "Displayed before the closing HEAD tag."
+
+#: customizer/scripts.php:49
+msgid "Выводится в подвале сайта перед закрывающим тегом BODY"
+msgstr "Displayed in the footer of the site before the closing BODY tag"
+
+#: footer.php:19
+msgid "Разработка: <a href=\"https://chomovva.ru/\">chomovva</a>"
+msgstr "Development: <a href=\"https://chomovva.ru/\">chomovva</a>"
+
+#: includes/menus.php:15
+msgid "Главное меню"
+msgstr "Main menu"
+
+#: includes/sidebars.php:15
+msgid "Подвал"
+msgstr "Footer"
+
+#: includes/sidebars.php:17
+msgid "Отображается в подвале сайта"
+msgstr "Displayed in the footer of the site"
+
+#: includes/theme-activate.php:20
+msgid "Каталог"
+msgstr "Catalog"
+
+#: parts/breadcrumbs.php:21
+msgid "Главная"
+msgstr "Home"
+
+#: parts/breadcrumbs.php:52
+msgid "Домашняя страница"
+msgstr "Homepage"
+
+#: parts/nav.php:32
+msgid "Меню"
+msgstr "Menu"
+
+#: views/entry-catalog.php:57
+msgid "Подробнее"
+msgstr "More"

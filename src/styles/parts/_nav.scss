@@ -1,0 +1,68 @@
+.nav {
+
+	.container {
+		display: flex;
+		align-items: center;
+	}
+
+	.list {
+		list-style-type: none;
+		padding-left: 0;
+		margin-top: 0;
+		margin-bottom: 0;
+		display: none;
+		@include min-width( $screen-lg ) {
+			display: flex;
+		}
+	}
+
+	.sub-menu {
+		display: none;
+	}
+
+	a {
+		color: #fff;
+		display: block;
+		padding: 1rem 1.5rem;
+	}
+
+	a:hover {
+		background-color: rgba( 255, 255, 255, .15 );
+		text-decoration: none;
+	}
+
+	.burger {
+		margin-left: auto;
+		background-color: transparent;
+		border: none;
+		position: relative;
+		padding: .5rem;
+		@include min-width( $screen-lg ) {
+			display: none;
+		}
+	}
+
+	.burger:hover {
+		background-color: rgba( 255, 255, 255, .15 );
+	}
+
+	.burger .bar {
+		background-color: #fff;
+		border-radius: .2rem;
+		width: 2rem;
+		height: 2px;
+		display: block;
+		margin: .5rem 0;
+	}
+
+	&.active .list {
+		display: block;
+		position: absolute;
+		top: 100%;
+		left: 0;
+		right: 0;
+		background-color: $brand-primary;
+		z-index: 1;
+	}
+
+}

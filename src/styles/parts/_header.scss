@@ -1,0 +1,39 @@
+.header {
+
+	.container {
+		display: flex;
+	}
+
+	.col:nth-of-type( even ) {
+		margin-left: auto;
+		text-align: right;
+	}
+
+	.custom-logo-link {
+		@extend %h1;
+		color: #fff;
+	}
+
+	.custom-logo-link:hover {
+		text-decoration: none;
+	}
+
+	.custom-logo-link + p {
+		@extend %small;
+		color: #fff;
+	}
+
+	.custom-logo {
+		max-height: 2.5rem;
+		display: block;
+	}
+
+	a {
+		color: #fff;
+	}
+
+	.font-weight-bold {
+		color: #fff;
+	}
+
+}

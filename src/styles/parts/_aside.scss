@@ -1,0 +1,30 @@
+.aside {
+
+	.container {
+		display: flex;
+		flex-direction: column;
+		@include min-width( $screen-md ) {
+			flex-direction: row;
+		}
+	}
+
+	.widget {
+		width: 100%;
+		@include min-width( $screen-md ) {
+			width: 50%;
+		}
+	}
+
+	.widget:nth-of-type( odd ) {
+		@include min-width( $screen-md ) {
+			padding-right: $container-gutter-width / 2;
+		}
+	}
+
+	.widget:nth-of-type( even ) {
+		@include min-width( $screen-md ) {
+			padding-left: $container-gutter-width / 2;
+		}
+	}
+
+}

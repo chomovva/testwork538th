@@ -1,0 +1,33 @@
+//-
+	Форма добавления товара
+
+
+form.form.add-product-form
+
+	.form-group
+		label( for='title' ) Название товара
+		input( type='text' id='title' name='title' value='' )
+
+	.form-group
+		label( for='price' ) Цена
+		input( type='number' id='price' name='price' value='' min='0' )
+
+	.form-group
+		label( for='custom_thumbnail_id' ) Кастомное превью
+		input( type='hidden' id='custom_thumbnail_id' name='custom_thumbnail_id' value='' )
+
+	.form-group
+		label( for='custom_create_date' ) Дата создания продукта
+		input( type='date' id='custom_create_date' name='custom_create_date' value='' )
+
+	.form-group
+		label( for='product_custom_type' ) Тип продукта
+		select( name='product_custom_type' id='product_custom_type' )
+			option -
+			option Rare
+			option Frequent
+			option Unusual
+
+	.form-group.d-flex
+		button.mr-auto( type='reset' ) Очистить
+		button.ml-auto( type='submit' ) Добавить

@@ -1,0 +1,29 @@
+.footer {
+
+	.container {
+		display: flex;
+		align-items: center;
+	}
+
+	.copyright {
+		@include min-width( $screen-md ) {
+			width: 50%;
+		}
+	}
+
+	.developer {
+		text-align: right;
+		@include min-width( $screen-md ) {
+			width: 50%;
+		}
+	}
+
+	a {
+		color: #fff;
+	}
+
+	strong {
+		color: #fff;
+	}
+
+}
